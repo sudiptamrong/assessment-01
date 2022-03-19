@@ -1,0 +1,240 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.container {
+	    padding: 0 5%;
+	}
+
+	.header {
+	    padding: 40px 0;
+	}
+
+	.header h1 {
+	    margin: 65px 0 20px;
+	    font-size: 50px;
+	}
+
+	.header p {
+   		margin-bottom: 65px;
+	}
+
+	.header a img {
+	    max-width: 80px;
+	}
+
+	.header a svg {
+	    padding: 10px 12px;
+	    font-size: 15px;
+	}
+
+	.about {
+	    padding: 50px 0 40px;
+	}
+
+	.about-content-box h2 {
+	    margin: 50px 0 20px;
+	}
+
+	.common-title {
+	    font-size: 35px;
+	}
+
+	.common-text {
+	    font-size: 17px;
+	    line-height: 25px;
+	}
+
+	.content-box {
+	    width: 100%;
+	   	padding: 2% 0 5%;
+	}
+
+	.common-btn {
+	    margin-top: 20px;
+	}
+
+	#photography {
+	    padding: 50px 0;
+	}
+
+	.photography-sample .common-btn {
+	    margin-top: 40px;
+	}
+
+	.photography .content-box {
+	    padding: 1% 0 3%;
+	}
+
+	#portfolio {
+	    padding: 50px 0;
+	}
+
+	.portfolio ul {
+	    margin: 20px 0;
+	}
+
+	.portfolio ul li {
+	    padding: 10px 20px;
+	}
+
+	.portfolio-content .content-box a {
+	    font-size: 15px;
+	}
+
+	.subscribe {
+	    padding: 50px 0;
+	}
+
+	.subscribe p {
+    	padding: 30px 0;
+	}
+
+	.subscribe svg {
+	    font-size: 60px;
+	}
+
+	form .email {
+	    width: 100%;
+	} 
+	
+	.submit-btn {
+		margin-top: 15px;
+		width: 100%;
+	    padding: 17px 35px;
+	}
+
+	footer {
+	    padding: 30px 0;
+	}
+
+	footer ul {
+	    padding-bottom: 15px;
+	}
+
+	footer ul li {
+	    padding: 8px 20px;
+	}
+
+	footer ul li a {
+	    font-size: 25px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.container {
+	    padding: 0 5%;
+	}
+
+	.header h1 {
+	    margin: 80px 0 20px;
+	}
+
+	.header p {
+   		margin-bottom: 80px;
+	}
+
+	.header a img {
+	    max-width: 100px;
+	}
+
+	.common-title {
+	    font-size: 55px;
+	}
+
+	.common-text {
+	    font-size: 18px;
+	}
+
+	.portfolio ul li {
+	    padding: 5px 9px;
+	}
+
+	.portfolio-content .content-box a {
+	    font-size: 15px;
+	}
+
+	.subscribe {
+	    padding: 80px 0;
+	}
+
+	form .email {
+	    width: 40%;
+	}
+
+	.submit-btn {
+	    padding: 17px 35px;
+	}
+
+	footer {
+	    padding: 30px 0;
+	}
+
+	footer ul {
+	    padding-bottom: 20px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.container {
+	    padding: 0 10%;
+	}
+
+	.header h1 {
+	    margin: 80px 0 20px;
+	}
+
+	.header p {
+   		margin-bottom: 80px;
+	}
+
+	.header a img {
+	    max-width: 100px;
+	}
+
+	.common-title {
+	    font-size: 55px;
+	}
+
+	.common-text {
+	    font-size: 18px;
+	}
+
+	.portfolio ul li {
+	    padding: 5px 15px;
+	}
+
+	.portfolio-content .content-box a {
+	    font-size: 15px;
+	}
+
+	.subscribe {
+	    padding: 100px 0;
+	}
+
+	form .email {
+	    width: 40%;
+	}
+
+	.submit-btn {
+	    padding: 17px 35px;
+	}
+
+	footer ul {
+	    padding-bottom: 30px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.container {
+	    padding: 0 15%;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+	.common-text {
+	    max-width: 42rem;
+	}
+}

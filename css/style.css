@@ -1,0 +1,330 @@
+/* Common Class Start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 20%;
+}
+
+.common-title{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.common-paragraph{
+    font-size: 15px;
+}
+
+.bg-img{
+    background-image: url(images/bg-pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.common-text{
+    width: 100%;
+    max-width: 50rem;
+    color: #464b4f;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content-box{
+    display: inline-block;
+    padding: 2% 1%;
+    width: 30%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.content-box img{
+    width: 100%;
+}
+
+.common-btn{
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #7b77c9;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.common-btn:hover{
+    background-color: #7b76dd;
+}
+/* Common Class End */
+
+
+/* Header Section Start */
+#header{
+    background-color: #23232e;
+}
+
+.header{
+    padding: 50px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header a{
+    display: inline-block;
+}
+
+.header a img{
+    width: 100%;
+    max-width: 120px;
+}
+
+.header a svg{
+    padding: 15px 18px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.header a svg:hover{
+    color: #7b77c9;
+    border-color: #7b77c9;
+}
+
+.header h1{
+    margin: 100px 0 20px;
+}
+
+.header p{
+    margin: auto;
+    margin-bottom: 100px;
+    max-width: 350px;
+    line-height: 25px;
+}
+
+.header .scroll-icon{
+    display: inline-block;
+}
+.header .scroll-icon img{
+    width: 100%;
+    max-width: 45px;
+}
+/* Header Section End */
+
+
+/* About Section Start */
+.about {
+    padding: 70px 0 50px;
+    text-align: center;
+}
+
+.about p{
+    margin: auto;
+}
+
+.about-content-box h2{
+    margin: 70px 0 20px;
+    color: #464b4f;
+}
+
+.about-content-box p{
+    margin: 10px 0;
+    line-height: 22px;
+}
+
+.content-box h5{
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+/* About Section End */
+
+
+/* Portfolio Section Start */
+#portfolio{
+    padding: 70px 0;
+    background-color: #23232e;
+}
+
+.portfolio{
+    text-align: center
+}
+
+.portfolio h2{
+    margin: 0;
+    color: #ffffff;
+}
+
+.portfolio ul{
+    margin: 30px 0;
+}
+.portfolio ul li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+.portfolio ul li a{
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    color: #ffffff;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+}
+
+.active{
+    border-bottom: 2px solid #7b77c9 !important;
+}
+
+.portfolio ul li a:hover{
+    border-bottom: 2px solid #7b77c9;
+}
+
+.portfolio-content .content-box{
+    text-align: center;
+}
+
+.portfolio-content .content-box a{
+    padding-top: 20px;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.portfolio-content .content-box p{
+    margin: 10px 0;
+    font-size: 13px;
+    color: #818baa;
+}
+/* Portfolio Section End */
+
+
+/* Photography Section Start */
+#photography{
+    padding: 70px 0;   
+}
+
+.photography{
+    text-align: center;
+}
+
+.photography p{
+    margin: auto;
+    padding: 20px 0;
+    color: #888a8b;
+}
+
+.photography h2{
+    margin: 0;
+    color: #464b4f;
+}
+
+.photography .content-box{
+    padding: 1% 1%;
+}
+
+.photography-sample .common-btn{
+    margin-top: 60px;
+}
+/* Photography Section End */
+
+
+/* Subscribe Section Start */
+.subscribe{
+    padding: 150px 0;
+    background-color: #23232e;
+    text-align: center;
+}
+
+.subscribe svg{
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.subscribe p{
+    margin: auto;
+    padding: 40px 0;
+    width: 100%;
+    max-width: 25rem;
+    color: #ffffff;
+    line-height: 25px;
+    
+}
+
+form .email{
+    width: 30%;
+    padding: 17px 15px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+
+form .email:focus-visible{
+    outline: 2px solid #7b77c9;
+}
+
+.submit-btn{
+    padding: 17px 50px;
+    border-radius: 5px;
+    background-color: #7b77c9;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    transition: .4s;
+}
+
+.submit-btn:hover{
+    background-color: #7b77c9;
+}
+
+.submit-btn:focus-visible{
+    outline: none;
+}
+/* Subscribe Section End */
+
+
+/* Footer Section Start */
+footer{
+    padding: 50px 0;
+}
+
+footer ul{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+footer ul li a{
+    font-size: 30px;
+    color: #7c7c7c;
+    transition: .3s;
+}
+
+footer ul li a:hover{
+    color: #7b77c9;
+}
+
+
+footer p{
+    text-align: center;
+    color: #7c7c7c;
+}
+/* Footer Section End */
